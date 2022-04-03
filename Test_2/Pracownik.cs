@@ -34,7 +34,9 @@ namespace Test_2
         }
         public Pracownik()
         {
-
+            this.Nazwisko = "Anonim";
+            this.DataZatrudnienia = data;
+            this.Wynagrodzenie = 0;
         }
 
     }
